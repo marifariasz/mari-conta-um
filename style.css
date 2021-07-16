@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@300&display=swap');
+
+
+body{
+    background: linear-gradient(to right, #ff9e2f, #9e4343); 
+}
+
+.main-container{
+    color: white;
+
+}
+.headerClass{
+    color: whitesmoke;
+    font-family: 'Poppins';
+    display: flex;
+
+}
+.headerClass i{
+    margin-right: 4px;
+    margin-top: 35px;
+}
+.tabela{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-family: 'Poppins';
+}
+.caixa{
+    font-family: 'Poppins';
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+.inputnumero{
+    font-style: bold;
+    color: white;
+    font-family: 'Poppins';
+    width: 35px;
+    height: 26px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(45px);
+}
+.inputnumero:hover{
+    font-style: bold;
+    color: white;
+}
+.botao{
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+    border: 1px solid white;
+    background-color: #f78e16;
+    backdrop-filter: blur(45px);
+    transition: filter .2s;
+}
+.botao:hover{
+    filter: brightness(1.2)
+    
+}
+table{
+    margin-top: 1rem;
+    font-family: 'Poppins';
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(45px);
+    border-radius: 20px;
+    position: relative;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+.footer{
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-between;
+}
+footer i{
+    position: absolute;
+    left: 740px;
+    margin-top: -30px;
+}

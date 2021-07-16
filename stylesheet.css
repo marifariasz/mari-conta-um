@@ -1,0 +1,81 @@
+*{
+    font-family: Poppins;
+    background-color: rgb(211,211,211);
+    text-align: center;
+
+}
+.headerClass{
+    /*background-color: #980021;*/
+    display: block;
+    justify-content: center;
+    color: rgb#980021;
+}
+.image{
+    height: 120px;;
+}
+h1{
+    color:#980021;
+}
+p{
+color: red;
+}
+#formulario{
+    display:block;
+    justify-content: center;
+}
+
+.conteiner{
+    display:flex;
+    justify-content: center;
+}
+.botao_confirmar{
+    display:flex;
+    justify-content: center;
+}
+#botao{
+    background: -webkit-gradient(linear, left top, right top, from(#980021), to(rgb(211,211,211)));
+
+    color: black;
+
+    border-style: outset;
+
+    border-color: #8b008b;
+
+    height: 30px;
+
+    width: 120px;
+
+    font: bold 15px poppins;
+    border-radius:8px;
+    text-shadow:none;
+    display:block;
+    margin: 1rem;
+}
+
+#botao:hover{
+    background: -webkit-gradient(linear, left top, right top, from(rgb(211,211,211)), to(#980021));
+
+}
+#inputnumero{
+    border-radius:8px;
+    width: auto;
+    height: 36px;
+    color: black;
+
+    border-style: outset;
+
+    border-color: #980021;
+
+    font: bold 15px poppins;
+
+    text-shadow:none;
+}
+.numero{
+    display:flex;
+    justify-content: center;
+}
+table{
+    background:#980021;
+        margin: 0 auto;
+        width: 30%; /* Valor da Largura */
+    }
